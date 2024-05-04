@@ -1,11 +1,28 @@
-@import 'globals.css';
+
 
 .blog-container{
     margin: 0 auto;
     max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: min-content;
     gap: 20px;
+}
+
+/* .blog-container > .card{
+    z-index: -1 !important;
+} */
+
+.new-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #3498db;
+    color: #3498db;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .blog-card{
